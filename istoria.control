@@ -1,0 +1,4 @@
+# istoria extension
+comment = 'table history with non-linear undo/redo'
+default_version = '1.0'
+relocatable = true
