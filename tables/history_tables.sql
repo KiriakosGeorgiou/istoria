@@ -16,6 +16,7 @@ create table history_actions (
     new jsonb
 );
 create index history_actions_timeline_id_idx on history_actions(timeline_id);
+create index history_actions_timeline_id_action_id_idx(timeline_id, action_id);
 
 grant select on history_actions to public;
 
